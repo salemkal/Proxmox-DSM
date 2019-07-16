@@ -1,0 +1,734 @@
+Event Mapping 
+
+Event ID: 
+Category: 
+Name: 
+High Level Category: 
+Low Level Category: 
+Severity: 
+Description: 
+==========================================================================>
+pveproxy
+
+Event ID: Clearing outdated
+Category: pveproxy
+Name: Clearing outdated entries
+High Level Category: System
+Low Level Category: System Informational
+Severity: 1
+Description: Clearing outdated entries from certificate cache
+
+Event ID: got inotify
+Category: pveproxy
+Name:  got inotify poll request in wrong process
+High Level Category: System
+Low Level Category: System Informational
+Severity: 1
+Description: got inotify poll request in wrong process - disabling inotify
+
+Event ID: EV: error
+Category: pveproxy
+Name: Error in callback
+High Level Category: System
+Low Level Category: Information
+Severity: 1
+Description: Can't call method "push_write" on an undefined value
+
+----------------------------------------------------------------------------------------------------
+pvestatd
+
+Event ID: unable to
+Category: pvestatd
+Name: Unable to activate storage
+High Level Category: System
+Low Level Category: Task Completion Failure
+Severity: 1
+Description: Unable to activate storage, directory does not exist or is unreachable.
+
+Event ID: got timeout
+Category: pvestatd
+Name: got timeout
+High Level Category: System
+Low Level Category: System status
+Severity: 1
+Description: got timeout
+
+----------------------------------------------------------------------------------------------------
+pvedaemon
+
+Event ID: <root@pam> successful
+Category: pvedaemon
+Name: Web Login Successful
+High Level Category: Authentication
+Low Level Category: Web Service Login Succeeded
+Severity: 1
+Description: User logged into the application successfully
+
+Event ID: authentication failure;
+Category: pvedaemon
+Name: Web authentication failures
+High Level Category: Authentication
+Low Level Category: Web Service Login Failed
+Severity: 3
+Description: An authentication attempt was unsuccessful
+
+Event ID: Failed to
+Category: pvedaemon
+Name: Failed to run vncproxy.
+High Level Category: System
+Low Level Category: Task Completion Failure
+Severity: 1
+Description: TASK ERROR: Failed to run vncproxy
+
+Event ID: starting vnc proxy
+Category: pvedaemon
+Name: Starting vnc proxy
+High Level Category: System
+Low Level Category: Daemon Status
+Severity: 1
+Description: Task: Starting vnc proxy
+
+Event ID: starting task
+Category: pvedaemon
+Name: Starting task on VM server
+High Level Category: Audit
+Low Level Category: Start Activity Attempted
+Severity: 1
+Description: Starting task on one of the virtual machines that located on a VMS
+
+Event ID: end task
+Category: pvedaemon
+Name: Ending task on VM server
+High Level Category: Audit
+Low Level Category: Stop Activity Attempted
+Severity: 1
+Description: Ending task started on virtual machine that located on a VMS
+
+Event ID: stop VM
+Category: pvedaemon
+Name: Stopping virtual machine
+High Level Category: Audit
+Low Level Category: Virtual Machine Stop Attempt
+Severity: 1
+Description: Task: Stopping virtual machine
+
+Event ID: destroy VM
+Category: pvedaemon
+Name: Destroy Virtual Machine
+High Level Category: Audit
+Low Level Category: Virtual Machine Deletion Attempt
+Severity: 3
+Description: This event records the removal of a host from Proxmox
+
+----------------------------------------------------------------------------------------------------
+pveupdate
+
+Event ID: starting task
+Category: pveupdate
+Name: Starting task on VM server
+High Level Category: Audit
+Low Level Category: Start Activity Attempted
+Severity: 1
+Description: Starting task on one of the virtual machines that located on a VMS
+
+Event ID: end task
+Category: pveupdate
+Name: Ending task on VM server
+High Level Category: Audit
+Low Level Category: Stop Activity Attempted
+Severity: 1
+Description: Ending task started on virtual machine that located on a VMS
+
+Event ID: update new
+Category: pveupdate
+Name: Update new package list
+High Level Category: Audit
+Low Level Category: Update Activity Attempted
+Severity: 1
+Description: Task: Update new package list
+
+----------------------------------------------------------------------------------------------------
+pvesr
+
+Event ID: trying to
+Category: pvesr
+Name: Trying to acquire cfs lock
+High Level Category: System
+Low Level Category: System Error
+Severity: 2
+Description: Trying to acquire cfs lock, file-replication
+
+----------------------------------------------------------------------------------------------------
+pvefw-logger
+
+Event ID: starting pvefw
+Category: pvefw-logger
+Name: Starting pve-firewall logger
+High Level Category: Audit
+Low Level Category: Start Activity Attempted
+Severity: 1
+Description: Task: Starting pve-firewall logger
+
+Event ID: stopping pvefw
+Category: pvefw-logger
+Name: Stopping pve-firewall logger
+High Level Category: Audit
+Low Level Category: Stop Activity Attempted
+Severity: 1
+Description: Task: Stopping pve-firewall logger
+
+Event ID: received terminate
+Category: pvefw-logger
+Name: Received terminate request
+High Level Category: Audit
+Low Level Category: Receive Activity Attempted
+Severity: 1
+Description: Received terminate request signal
+
+----------------------------------------------------------------------------------------------------
+pve-firewall
+
+Event ID: restarting server
+Category: pve-firewall
+Name: Restarting server
+High Level Category: System
+Low Level Category: Notice
+Severity: 1
+Description: Task: Restarting server
+
+Event ID: server shutdown
+Category: pve-firewall
+Name: Server shutdown (restart)
+High Level Category: System
+Low Level Category: Notice
+Severity: 1
+Description: Task: Server shutdown (restart)
+
+Event ID: restarting server after
+Category: pve-firewall
+Name: Restarting server after number of cycles
+High Level Category: System
+Low Level Category: Notice
+Severity: 1
+Description: Restarting server after number of cycles to reduce memory usage
+
+----------------------------------------------------------------------------------------------------
+systemd
+
+Event ID: Started Proxmox
+Category: systemd
+Name: Started Proxmox VE replication runner
+High Level Category: System
+Low Level Category: Service Started
+Severity: 1
+Description: Task: Started Proxmox VE replication runner
+
+Event ID: Starting Proxmox
+Category: systemd
+Name: Starting Proxmox VE replication runner
+High Level Category: Audit
+Low Level Category: Start Activity Attempted
+Severity: 1
+Description: Task: Starting Proxmox VE replication runner
+
+Event ID: Starting Cleanup
+Category: systemd
+Name: Starting Cleanup of Temporary Directories
+High Level Category: Audit
+Low Level Category: Start Activity Attempted
+Severity: 1
+Description: Task: Starting Cleanup of Temporary Directories
+
+Event ID: Started Cleanup
+Category: systemd
+Name: Started Cleanup of Temporary Directories.
+
+High Level Category: System
+Low Level Category: Service Started
+Severity: 1
+Description: Task: Started Cleanup of Temporary Directories.
+
+Event ID: Stopped Proxmox
+Category: systemd
+Name: Stopped Proxmox VE firewall logger
+High Level Category: System
+Low Level Category: Service Stopped
+Severity: 1
+Description: Task: Stopped Proxmox VE firewall logger.
+
+Event ID: Stopping Proxmox
+Category: systemd
+Name: Stopping Proxmox VE firewall logger
+High Level Category: Audit
+Low Level Category: Stop Activity Attempted
+Severity: 1
+Description: Task: Stopping Proxmox VE firewall logger.
+
+----------------------------------------------------------------------------------------------------
+postfix/qmgr
+
+Event ID: queue active
+Category: postfix/qmgr
+Name: postfix/qmgr Event
+High Level Category: System
+Low Level Category: Information
+Severity: 2
+Description: postfix/qmgr Event
+
+----------------------------------------------------------------------------------------------------
+qm
+
+Event ID: <root@pam> update
+Category: qm
+Name: Vm Update Event
+High Level Category: Audit
+Low Level Category: Virtual Machine Update Attempt
+Severity: 1
+Description: This event records the process of updating the virtual machine.
+
+Event ID: qmp command failed
+Category: qm
+Name: QMP command failed
+High Level Category: System
+Low Level Category: Configuration Error
+Severity: 3
+Description: QMP command failed virtual machine not running
+
+----------------------------------------------------------------------------------------------------
+pmxcfs
+
+Event ID: [status] notice:
+Category: pmxcfs
+Name: Received log
+High Level Category: System
+Low Level Category: Notice
+Severity: 1
+Description: Received log
+
+Event ID: [dcdb] notice:
+Category: pmxcfs
+Name: Data verification successful
+High Level Category: System
+Low Level Category: Notice
+Severity: 1
+Description: Data verification successful
+
+----------------------------------------------------------------------------------------------------
+rrdcached
+
+Event ID: removing old
+Category: rrdcached
+Name: Removing old journal
+High Level Category: System
+Low Level Category: Information
+Severity: 1
+Description: Removing old journal
+
+Event ID: flushing old
+Category: rrdcached
+Name: Flushing Entry From Cache
+High Level Category: System
+Low Level Category: Information
+Severity: 2
+Description: Flushing Entry from cache volume
+
+Event ID: rotating journals
+Category: rrdcached
+Name: Rotating journals
+High Level Category: System
+Low Level Category: Information
+Severity: 1
+Description: Rotating journals
+
+Event ID: started
+Category: rrdcached
+Name: Started new journal
+High Level Category: System
+Low Level Category: Information
+Severity: 1
+Description: Started new journal
+ 
+----------------------------------------------------------------------------------------------------
+rsyslogd
+
+Event ID: suspended
+Category: rsyslogd
+Name: Action suspended
+High Level Category: System
+Low Level Category: Information
+Severity: 1
+Description: There should be messages before this one giving the reason for suspension.
+
+Event ID: resumed
+Category: rsyslogd
+Name: Action resumed
+High Level Category: System
+Low Level Category: Information
+Severity: 1
+Description: Action resumed for a file.
+
+Event ID: omfwd: TCPSendBuf
+Category: rsyslogd
+Name: TCP Send Buffer Event
+High Level Category: System
+Low Level Category: Information
+Severity: 2
+Description: This event record the status of TCP Sending Buffer.
+
+----------------------------------------------------------------------------------------------------
+vzdump
+
+Event ID: starting task
+Category: vzdump
+Name: Starting task on VM server
+High Level Category: Audit
+Low Level Category: Start Activity Attempted
+Severity: 1
+Description: Starting task on one of the virtual machines that located on a VMS
+
+Event ID: end task
+Category: vzdump
+Name: Ending task on VM server
+High Level Category: Audit
+Low Level Category: Stop Activity Attempted
+Severity: 1
+Description: Ending task started on virtual machine that located on a VMS
+
+Event ID: job errors
+Category: vzdump
+Name: Job errors for virtual machine
+High Level Category: Audit
+Low Level Category: Backup Activity Failed
+Severity: 1
+Description: Job errors for virtual machine
+
+Event ID: INFO: Backup
+Category: vzdump
+Name: Backup job finished with errors
+High Level Category: Audit
+Low Level Category: Backup Activity Attempted
+Severity: 1
+Description: INFO: Backup job finished with errors
+
+Event ID: INFO: Finished
+Category: vzdump
+Name: Finished Backup of virtual machine
+High Level Category: Audit
+Low Level Category: Backup Activity Succeeded
+Severity: 1
+Description: INFO: Finished Backup virtual machine
+
+Event ID: INFO: Starting
+Category: vzdump
+Name: Starting Backup of virtual machine
+High Level Category: Audit
+Low Level Category: Backup Activity Attempted
+Severity: 1
+Description: INFO: Starting Backup of virtual machine
+
+Event ID: INFO: starting
+Category: vzdump
+Name: Starting new backup job
+High Level Category: Audit
+Low Level Category: Backup Activity Attempted
+Severity: 1
+Description: INFO: Starting new backup job for virtual machine
+
+Event ID: ERROR: Backup
+Category: vzdump
+Name: Backup of virtual machine failed
+High Level Category: Audit
+Low Level Category: Backup Activity Failed
+Severity: 1
+Description: INFO: Backup of virtual machine failed
+
+----------------------------------------------------------------------------------------------------
+smartd
+
+Event ID: Temperature_Celsius
+Category: smartd
+Name: Temperature_Celsius changed
+High Level Category: System
+Low Level Category: Information
+Severity: 2
+Description: SMART Usage Attribute, Temperature Celsius changed
+
+Event ID: Airflow_Temperature_Cel
+Category: smartd
+Name: Airflow_Temperature_Cel changed
+High Level Category: System
+Low Level Category: Information
+Severity: 2
+Description: SMART Usage Attribute, Airflow Temperature Celsius changed
+
+Event ID: SMART Usage Attribute
+Category: smartd
+Name: Airflow_Temperature_Cel changed
+High Level Category: System
+Low Level Category: Information
+Severity: 2
+Description: SMART Usage Attribute, Airflow Temperature Celsius changed
+
+Event ID: SMART Prefailure Attribute
+Category: smartd
+Name: Raw_Read_Error_Rate changed
+High Level Category: System
+Low Level Category: Information
+Severity: 2
+Description: 
+
+Event ID: Hardware_ECC_Recovered
+Category: smartd
+Name: Hardware_ECC_Recovered changed
+High Level Category: System
+Low Level Category: Information
+Severity: 2
+Description: SMART Usage Attribute, Hardware ECC Recovered changed
+
+----------------------------------------------------------------------------------------------------
+CRON
+
+Event ID: CMD (
+Category: CRON
+Name: Cron System Command
+High Level Category: System
+Low Level Category: Cron
+Severity: 1
+Description: The cron daemon has executed a system command
+
+Event ID: session closed
+Category: CRON
+Name: Session closed for user root
+High Level Category: Access
+Low Level Category: Session Closed
+Severity: 1
+Description: PAM_UNIX (cron:session): Session closed for user root
+
+Event ID: session opened
+Category: CRON
+Name: Session opened for user root
+High Level Category: Access
+Low Level Category: Session Opened
+Severity: 1
+Description: PAM_UNIX (cron:session): Session opened for user root
+
+----------------------------------------------------------------------------------------------------
+kernel
+
+Event ID: audit
+Category: kernel
+Name: System Kernel Information Message
+High Level Category: System
+Low Level Category: Kernel
+Severity: 1
+Description: System Kernel Information Message
+
+Event ID: nf_conntrack
+Category: kernel
+Name: System Kernel Information Message
+High Level Category: System
+Low Level Category: Kernel
+Severity: 1
+Description: System Kernel Information Message
+
+----------------------------------------------------------------------------------------------------
+cluster.vms.log UPID
+
+Event ID: qmdestroy
+Category: cluster.vms.log UPID
+Name: Destroy VM Task Status
+High Level Category: Audit
+Low Level Category: Virtual Machine Deletion Attempt
+Severity: 1
+Description: The status of destroy virtual machine in the current folder.
+
+Event ID: qmcreate
+Category: cluster.vms.log UPID
+Name: Create VM Task Status
+High Level Category: Audit
+Low Level Category: Virtual Machine Creation Attempt
+Severity: 1
+Description: The status of creates a new virtual machine in the current folder.
+
+Event ID: vncproxy
+Category: cluster.vms.log UPID
+Name: Proxy VM Task Status
+High Level Category: System
+Low Level Category: Information
+Severity: 1
+Description: The status of Proxy virtual machine in the current folder.
+
+Event ID: aptupdate
+Category: cluster.vms.log UPID
+Name: Update VM Task Status
+High Level Category: Audit
+Low Level Category: Virtual Machine Update Attempt
+Severity: 1
+Description: The status of update virtual machine in the current folder.
+
+Event ID: vzdump
+Category: cluster.vms.log UPID
+Name: Dump VM Task Status
+High Level Category: Audit
+Low Level Category: Data Dump
+Severity: 1
+Description: The status of the dump task for virtual machine.
+
+Event ID: qmstart
+Category: cluster.vms.log UPID
+Name: Start VM Task Status
+High Level Category: Audit
+Low Level Category: Virtual Machine Start Attempt
+Severity: 1
+Description: The status of start virtual machine in the current folder.
+
+Event ID: qmclone
+Category: cluster.vms.log UPID
+Name: Clone VM Task Status
+High Level Category: Audit
+Low Level Category: Virtual Machine Clone Attempt
+Severity: 1
+Description: The status of creates a duplicate of this virtual machine.
+
+Event ID: qmstop
+Category: cluster.vms.log UPID
+Name: Stop VM Task Status
+High Level Category: Audit
+Low Level Category: Virtual Machine Stop Attempt
+Severity: 1
+Description: The status of stopping virtual machine.
+
+Event ID: qmshutdown
+Category: cluster.vms.log UPID
+Name: Shutdown VM Task Status
+High Level Category: Audit
+Low Level Category: Virtual Machine Stop Attempt
+Severity: 1
+Description: The status of Powers off this virtual machine.
+
+Event ID: qmreset
+Category: cluster.vms.log UPID
+Name: Reset VM Task Status
+High Level Category: Audit
+Low Level Category: Virtual Machine Restart Attempt
+Severity: 1
+Description: The status of resets power on this virtual machine.
+
+----------------------------------------------------------------------------------------------------
+sshd
+
+Event ID: Disconnected from
+Category: sshd
+Name: SSHD connection disconnected successfully
+High Level Category: Application
+Low Level Category: SSH Closed
+Severity: 1
+Description: SSHD connection disconnected successfully
+
+Event ID: Accepted publickey
+Category: sshd
+Name: Accepted public key
+High Level Category: Authentication
+Low Level Category: SSH Login Succeeded
+Severity: 1
+Description: SSH user pass public key authentication
+
+Event ID: session opened
+Category: sshd
+Name: SSH Session Opened
+High Level Category: Authentication
+Low Level Category: SSH Session Started
+Severity: 1
+Description: SSH connectivity initiated
+
+Event ID: session closed
+Category: sshd
+Name: SSH Session Closed
+High Level Category: Authentication
+Low Level Category: SSH Session Finished
+Severity: 1
+Description:  SSH session complete
+
+Event ID: Received disconnect
+Category: sshd
+Name: Received disconnect from IP
+High Level Category: Authentication
+Low Level Category: SSH Session Finished
+Severity: 1
+Description: Received disconnect from IP
+
+Event ID: Connection closed
+Category: sshd
+Name: sshd Connection Closed
+High Level Category: Access
+Low Level Category: Session Closed
+Severity: 1
+Description: sshd Connection Closed from destination [preauth]
+
+Event ID: authentication failure
+Category: sshd
+Name: SSHD authentication failure
+High Level Category: Authentication
+Low Level Category: SSH Login Failed
+Severity: 3
+Description: SSH user didn't pass password authentication for some reasons
+
+Event ID: more authentication failures
+Category: sshd
+Name: Multiple SSHD authentication failures
+High Level Category: Authentication
+Low Level Category: SSH Login Failed
+Severity: 3
+Description: Multiple proxmox server authentication failures through SSH
+
+Event ID: Invalid user
+Category: sshd
+Name: Logon Attempt With Invalid User
+High Level Category: Authentication
+Low Level Category: User Login Failure
+Severity: 3
+Description: An invalid user attempted to authenticate
+
+Event ID: Failed password
+Category: sshd
+Name: Failed password for invalid user
+High Level Category: Authentication
+Low Level Category: SSH Login Failed
+Severity: 3
+Description: Failed password for user
+
+Event ID: Failed password for invalid user
+Category: sshd
+Name: Failed password for invalid user
+High Level Category: Authentication
+Low Level Category: SSH Login Failed
+Severity: 3
+Description: Attempted sign-on (user authentication) failed because invalid user
+
+Event ID: input_userauth_request: invalid
+Category: sshd
+Name: Authentication attempt for invalid user ID
+High Level Category: Authentication
+Low Level Category: User Login Attempt
+Severity: 3
+Description: An authentication attempt for pre-authentication from invalid user specified
+
+Event ID: check pass
+Category: sshd
+Name: SSHD Check password
+High Level Category: Authentication
+Low Level Category: User Login Attempt
+Severity: 2
+Description: Check password for unknown user
+
+----------------------------------------------------------------------------------------------------
+postfix/smtp
+
+Event ID: connect to
+Category: postfix/smtp
+Name: Postfix/smtp Connection event
+High Level Category: Application
+Low Level Category: SMTP In Progress
+Severity: 1
+Description: Postfix/smtp Connection event status
+
