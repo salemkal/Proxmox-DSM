@@ -8,7 +8,7 @@ Low Level Category:
 Severity: 
 Description: 
 ==========================================================================>
-# pveproxy
+pveproxy
 
 Event ID: Clearing outdated
 Category: pveproxy
@@ -35,7 +35,7 @@ Severity: 1
 Description: Can't call method "push_write" on an undefined value
 
 ----------------------------------------------------------------------------------------------------
-# pvestatd
+pvestatd
 
 Event ID: unable to
 Category: pvestatd
@@ -54,7 +54,7 @@ Severity: 1
 Description: got timeout
 
 ----------------------------------------------------------------------------------------------------
-# pvedaemon
+pvedaemon
 
 Event ID: <root@pam> successful
 Category: pvedaemon
@@ -121,7 +121,7 @@ Severity: 3
 Description: This event records the removal of a host from Proxmox
 
 ----------------------------------------------------------------------------------------------------
-# pveupdate
+pveupdate
 
 Event ID: starting task
 Category: pveupdate
@@ -148,7 +148,7 @@ Severity: 1
 Description: Task: Update new package list
 
 ----------------------------------------------------------------------------------------------------
-# pvesr
+pvesr
 
 Event ID: trying to
 Category: pvesr
@@ -159,7 +159,7 @@ Severity: 2
 Description: Trying to acquire cfs lock, file-replication
 
 ----------------------------------------------------------------------------------------------------
-# pvefw-logger
+pvefw-logger
 
 Event ID: starting pvefw
 Category: pvefw-logger
@@ -186,7 +186,7 @@ Severity: 1
 Description: Received terminate request signal
 
 ----------------------------------------------------------------------------------------------------
-# pve-firewall
+pve-firewall
 
 Event ID: restarting server
 Category: pve-firewall
@@ -213,7 +213,7 @@ Severity: 1
 Description: Restarting server after number of cycles to reduce memory usage
 
 ----------------------------------------------------------------------------------------------------
-# systemd
+systemd
 
 Event ID: Started Proxmox
 Category: systemd
@@ -265,7 +265,7 @@ Severity: 1
 Description: Task: Stopping Proxmox VE firewall logger.
 
 ----------------------------------------------------------------------------------------------------
-# postfix/qmgr
+postfix/qmgr
 
 Event ID: queue active
 Category: postfix/qmgr
@@ -276,7 +276,7 @@ Severity: 2
 Description: postfix/qmgr Event
 
 ----------------------------------------------------------------------------------------------------
-# qm
+qm
 
 Event ID: <root@pam> update
 Category: qm
@@ -295,7 +295,7 @@ Severity: 3
 Description: QMP command failed virtual machine not running
 
 ----------------------------------------------------------------------------------------------------
-# pmxcfs
+pmxcfs
 
 Event ID: [status] notice:
 Category: pmxcfs
@@ -349,7 +349,7 @@ Severity: 1
 Description: Started new journal
  
 ----------------------------------------------------------------------------------------------------
-# rsyslogd
+rsyslogd
 
 Event ID: suspended
 Category: rsyslogd
@@ -376,7 +376,7 @@ Severity: 2
 Description: This event record the status of TCP Sending Buffer.
 
 ----------------------------------------------------------------------------------------------------
-# vzdump
+vzdump
 
 Event ID: starting task
 Category: vzdump
@@ -443,7 +443,7 @@ Severity: 1
 Description: INFO: Backup of virtual machine failed
 
 ----------------------------------------------------------------------------------------------------
-# smartd
+smartd
 
 Event ID: Temperature_Celsius
 Category: smartd
@@ -486,7 +486,7 @@ Severity: 2
 Description: SMART Usage Attribute, Hardware ECC Recovered changed
 
 ----------------------------------------------------------------------------------------------------
-# CRON
+CRON
 
 Event ID: CMD (
 Category: CRON
@@ -513,7 +513,7 @@ Severity: 1
 Description: PAM_UNIX (cron:session): Session opened for user root
 
 ----------------------------------------------------------------------------------------------------
-# kernel
+kernel
 
 Event ID: audit
 Category: kernel
@@ -532,7 +532,7 @@ Severity: 1
 Description: System Kernel Information Message
 
 ----------------------------------------------------------------------------------------------------
-# cluster.vms.log UPID
+cluster.vms.log UPID
 
 Event ID: qmdestroy
 Category: cluster.vms.log UPID
@@ -615,7 +615,7 @@ Severity: 1
 Description: The status of resets power on this virtual machine.
 
 ----------------------------------------------------------------------------------------------------
-# sshd
+sshd
 
 Event ID: Disconnected from
 Category: sshd
@@ -722,7 +722,7 @@ Severity: 2
 Description: Check password for unknown user
 
 ----------------------------------------------------------------------------------------------------
-# postfix/smtp
+postfix/smtp
 
 Event ID: connect to
 Category: postfix/smtp
@@ -731,4 +731,3 @@ High Level Category: Application
 Low Level Category: SMTP In Progress
 Severity: 1
 Description: Postfix/smtp Connection event status
-
