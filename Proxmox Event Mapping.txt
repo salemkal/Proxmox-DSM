@@ -731,3 +731,13 @@ High Level Category: Application
 Low Level Category: SMTP In Progress
 Severity: 1
 Description: Postfix/smtp Connection event status
+----------------------------------------------------------------------------------------------------
+IPCC.xs
+
+Event ID: authentication failure
+Category: IPCC.xs
+Name: Web authentication failures
+High Level Category: Authentication
+Low Level Category: Web Service Login Failed
+Severity: 3
+Description: An authentication attempt was unsuccessful
